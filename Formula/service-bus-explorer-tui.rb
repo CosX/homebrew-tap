@@ -7,20 +7,20 @@ class ServiceBusExplorerTui < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.16/service-bus-explorer-tui-v0.0.16-aarch64-apple-darwin.tar.gz"
-      sha256 "e4ce008794110a870767f80159627dff89e88f690ff36a04392e3b110db6746c"
+      sha256 "5c58583e9568125f3978e2cdd5987681467b8ffc7f9e856c6512e57767714924"
     else
       url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.16/service-bus-explorer-tui-v0.0.16-x86_64-apple-darwin.tar.gz"
-      sha256 "9edf8d6caadd5b0de19e287921b676406e49fd9cf6881dd26d63d2317feb26b9"
+      sha256 "ddff6b829df8b7716abc527bc773a3d605c9be96f80fe56d9a70f0d58ad5152b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.16/service-bus-explorer-tui-v0.0.16-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "a088266c8481077090813ad2c511cc7414f2c55990fa743d58f86af20fbc60bb"
+      sha256 "01bc898b909ea17f58cd772289c5236d669376c69c9d07258139fa0b90c04c20"
     else
       url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.16/service-bus-explorer-tui-v0.0.16-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "529a2aefc6d0d4b4475477c96a647078b8fd6fd89ac4c466aadd4ca5cefe3ff0"
+      sha256 "6958a0bb24bd05e01bbdb361f92bc7a35fab5ceeb950fc4029bc6b7ae87fa7ea"
     end
   end
 
