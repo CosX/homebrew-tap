@@ -1,26 +1,26 @@
 class ServiceBusExplorerTui < Formula
   desc "Cross-platform TUI for managing Azure Service Bus"
   homepage "https://github.com/CosX/service-bus-explorer-tui"
-  version "0.0.18"
+  version "0.0.19"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.18/service-bus-explorer-tui-v0.0.18-aarch64-apple-darwin.tar.gz"
-      sha256 "8eb4213a9bb529e963a97be8fb0e642229922c37439fb672ebfbd27bfe74e7d9"
+      url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.19/service-bus-explorer-tui-v0.0.19-aarch64-apple-darwin.tar.gz"
+      sha256 "97d24072db409ced72481880f22b197d69d896c49716be291e92a3b7ce311134"
     else
-      url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.18/service-bus-explorer-tui-v0.0.18-x86_64-apple-darwin.tar.gz"
-      sha256 "8309906e86f3a738a3bdbae1eb0f7e06feb2a09702a272d6231f4b53771917c9"
+      url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.19/service-bus-explorer-tui-v0.0.19-x86_64-apple-darwin.tar.gz"
+      sha256 "0606fc3295822815535c9c40e19b27e6f7157e6b3518047fc82d3342594e583a"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.18/service-bus-explorer-tui-v0.0.18-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "8e75f192f816d093c6f9a809b33a98fa3e512b60b90356c70e3af0906d18d7e8"
+      url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.19/service-bus-explorer-tui-v0.0.19-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "56879cd602e8534f7fe672c905ea8dd2fffba3fcd7a569038f9f00d63ee319fa"
     else
-      url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.18/service-bus-explorer-tui-v0.0.18-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "283509c06156c536b6e274ec5d37fde8a2b5139061858003510f3c8341c34150"
+      url "https://github.com/CosX/service-bus-explorer-tui/releases/download/v0.0.19/service-bus-explorer-tui-v0.0.19-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "a1360cc37f5aa6bc69242c6b54990494f5cdb322239411bec4024165a714c3a1"
     end
   end
 
