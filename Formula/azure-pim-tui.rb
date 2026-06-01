@@ -1,26 +1,26 @@
 class AzurePimTui < Formula
   desc "Terminal UI for managing Azure PIM role activations"
   homepage "https://github.com/CosX/azure-pim-tui"
-  version "0.0.3"
+  version "0.0.4"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/CosX/azure-pim-tui/releases/download/v0.0.3/azure-pim-tui-v0.0.3-aarch64-apple-darwin.tar.gz"
-      sha256 "8f72ede0dac65f0875cd4ee4a05c02c1e4782868d6afed5d94cd16a48786af95"
+      url "https://github.com/CosX/azure-pim-tui/releases/download/v0.0.4/azure-pim-tui-v0.0.4-aarch64-apple-darwin.tar.gz"
+      sha256 "ec60758f3c4672de0974d8a599bce21428fd381908eb0b75663e85b6046c1e84"
     else
-      url "https://github.com/CosX/azure-pim-tui/releases/download/v0.0.3/azure-pim-tui-v0.0.3-x86_64-apple-darwin.tar.gz"
-      sha256 "0fd15293057f6bb90ef5aba147e18f3b20e3c96303cd59cd129683e8d63e5772"
+      url "https://github.com/CosX/azure-pim-tui/releases/download/v0.0.4/azure-pim-tui-v0.0.4-x86_64-apple-darwin.tar.gz"
+      sha256 "f99d3f7fd9982f2bf553e27227c05b881606ba18accad9d4d85317a8b29f0e90"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/CosX/azure-pim-tui/releases/download/v0.0.3/azure-pim-tui-v0.0.3-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "38dd36198924036e9b0cf1d099ff56fd712ce8ffeac443d5dc03e514e3b07e83"
+      url "https://github.com/CosX/azure-pim-tui/releases/download/v0.0.4/azure-pim-tui-v0.0.4-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "60b73bd0feab045f29b312b19b089590953a90e961c02b8706ed3d3c93fbe908"
     else
-      url "https://github.com/CosX/azure-pim-tui/releases/download/v0.0.3/azure-pim-tui-v0.0.3-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "74d4f407d9f7d8d23d9ec4480e213cf100a99beb00cc81648d9a49051df9d5af"
+      url "https://github.com/CosX/azure-pim-tui/releases/download/v0.0.4/azure-pim-tui-v0.0.4-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "bfe3498d14f4e421896e2021ed74c1e4ca33237c4278bd87af96b15c5d9fa069"
     end
   end
 
